@@ -6,7 +6,7 @@ import Home from "./components/Home";
 // import About from "./components/About";
 // import Projects from "./components/Projects";
 // import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 // import Resume from "./components/Resume";
 // import "./style.css";
 import "./App.css";
@@ -27,7 +27,7 @@ class App extends Component {
              <Route path="/projects" component={Projects}/>
              <Route path="/resume" component={Resume}/> */}
            </Switch>
-          {/* <Footer /> */}
+          <Footer />
         </div> 
       </BrowserRouter>
     );
