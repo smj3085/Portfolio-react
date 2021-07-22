@@ -1,12 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaAngellist } from "react-icons/fa";
 import imageme from "../images/stephprofile.jpg";
  
 function About() {
     return (
       <Container fluid className="about-section">
         <Container>
+
+          <Row
+              style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            >
+            <img src={ imageme }  alt="about-steph" className="about-img" />
+            {/* Multiple images */}
+          </Row>
+
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
               md={7}
@@ -16,39 +23,21 @@ function About() {
                 paddingBottom: "50px",
               }}
             >
-              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                <strong className="pink">Get to know me!</strong>
+              <h1 style={{ paddingBottom: "20px" }}>
+                <strong className="pink">A little bit about me!</strong>
               </h1>
+              <h2>Hi!! I'm <strong className="pink">Steph Lee. </strong></h2>
               <br />
               <p style={{ textAlign: "justify" }}>
-            Hi!! I'm <span className="pink">Steph Lee </span>
-            and I live in <span className="pink"> Sydney, Australia.</span>
-            <br />My early working years were spent in the hustle and bustle of the aviation and financial services industries.<br />
-            After a short break away from the working world I'm excited to embark upon a new career in programming.<br />
-            Currently, I am studying a Full-stack Bootcamp course at the University of Sydney which is scheduled to finish in August 2021.
-            <br />
-            <br />
-            My other interests include:
-          </p>
-          <ul>
-            <li className="about-activity">
-              <FaAngellist /> Travelling
-            </li>
-            <li className="about-activity">
-              <FaAngellist /> Reading
-            </li>
-            <li className="about-activity">
-              <FaAngellist /> Hiking
-            </li>
-          </ul>
-            </Col>
-            <Col
-              md={5}
-              style={{ paddingTop: "120px", paddingBottom: "50px" }}
-              className="about-img"
-            >
-            <img src={ imageme } alt="about-steph" className="img-fluid" />
-            </Col>
+              I am based in beautiful<strong className="pink"> Sydney, Australia.</strong>
+              <br />My early working years were spent in the hustle and bustle of the aviation and financial services industries.<br />
+              I have recently finished a Full Stack Bootcamp course with the University of Sydney.
+              <br />
+              {/* Quote block */}
+              <br />
+              </p>
+              </Col>
+            
           </Row>
         </Container>
     </Container>
