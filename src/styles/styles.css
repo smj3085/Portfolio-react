@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --pinklook: #f15bb5;
+    --bluelook: #3a86ff;
+    --yellowlook: #ffb703;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.pink {
+    color: var(--pinklook);
+}
+
+/* Navbar */
+.navbar-brand {
+    color: var(--bluelook) !important;
+    font-weight: 800;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    margin-left: 20px;
+    display: flex;
+}
+
+/* Home */
+.main-name {
+    color:var(--pinklook)
+} 
+
+.home-section {
+    padding-top: 80px !important;
+    
+}
+.home-header {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+
+.heading .heading-name{
+    padding-left: 60px !important;
+}
+
+/* About Me */
+.about-img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+
+.about-activity {
+    list-style-type:  none;
+}
+
+/* Projects */
+.project-section {
+    padding: 80px;
+}
+
+.project-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+  }
+
+.project-card-view {
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+    border: 1.7px solid black !important;
+    box-shadow: 4px 5px 4px 3px grey !important;
+  }
+
+  /* .project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px grey !important;
+  } */
+
+
+/* Resume */
+.resume-section {
+    position: relative !important;
+    padding-top: 110px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    color: black !important;
+  }
+  
+  .resume {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+
+.technical-section {
+    position: relative !important;
+    padding-top: 110px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    color: black !important;
+}
+
+.tech-icons {
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid black !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px grey !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  
+  @media (max-width: 767px) {
+    .tech-icons {
+      margin: 10px !important;
+    }
+  }
+  
+  .tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid black !important;
+  }
+  .tech-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+  }
+
+/* Contact */
+.contact-section {
+    position: relative !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    color: b5179e !important;
+}
+
+.social-icons {
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid b5179e !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px b5179e !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  
+  @media (max-width: 767px) {
+    .social-icons {
+      margin: 10px !important;
+    }
+  }
+  
+  .social-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid b5179e !important;
+  }
+  /* .tech-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+  } */
+
+/* footer */
+.footer {
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important;
+}
+
+.footer-name {
+    text-align: center !important;
+}
+.footer h4 {
+    font-size: 1em;
+    color: var(--pinklook) !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    /* text-align: center !important; */
+}
+
+
+
+/* Typewriter */
