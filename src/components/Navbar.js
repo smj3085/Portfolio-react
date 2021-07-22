@@ -2,26 +2,17 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-// import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
-  
-    // function scrollHandler() {
-    //   if (window.scrollY >= 20) {
-    //     updateNavbar(true);
-    //   } else {
-    //     updateNavbar(false);
-    //   }
-    // }
-  
-    // window.addEventListener("scroll", scrollHandler);
+
   
 return (
     <Navbar bg="light" expand="md" sticky="top">
         <Container>
-            <Navbar.Brand href="#home">S.</Navbar.Brand>
+            <Navbar.Brand href="#home">SLEE.</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"
               onClick={() => {
                 updateExpanded(expand ? false : "expanded");
