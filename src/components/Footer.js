@@ -1,15 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { FaLinkedinIn, FaGithubSquare } from "react-icons/fa";
 
 function Footer() {
     return (
       <Container fluid className="footer">
-        <Row>
-          <Col md="4" className="footer-name text-center">
-            <h4>Developed by Stephanie Lee</h4>
-          </Col>
-          <Col md="4" className="footer-body">
+        <Row md="4" className="footer-body">
             <ul className="footer-icons">
                 <li className="footer-social-icons">
                 <a
@@ -32,7 +28,6 @@ function Footer() {
                 </a>
             </li>
             </ul>
-          </Col>
         </Row>
       </Container>
     );
