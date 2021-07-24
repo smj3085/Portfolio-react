@@ -19,6 +19,7 @@
     "react-scripts": "4.0.3",
     "react-tsparticles": "^1.32.0",
     "react-typewriter-effect": "^1.0.2",
+    "react-typing-effect": "^2.0.5",
     "react-vertical-timeline-component": "^3.3.3",
     "web-vitals": "^1.1.2"
   },
