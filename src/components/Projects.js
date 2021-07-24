@@ -27,6 +27,9 @@ function Projects() {
                 <Card.Text style={{ textAlign: "justify" }}>
                 "HTML | JavaScript | APIs"
                 </Card.Text>
+                <Button variant="flat" style={{ background: "#f15bb5", color: "white", margin: 10}} href="https://github.com/smj3085/covid-tracker-stranded" target="_blank">
+                GitHub Repo
+                </Button>
                 <Button variant="flat" style={{ background: "#f15bb5", color: "white"}} href="https://smj3085.github.io/covid-tracker-stranded/" target="_blank">
                 View Project
                 </Button>
@@ -42,6 +45,9 @@ function Projects() {
                 <Card.Text style={{ textAlign: "justify" }}>
                 "HTML | CSS | JavaScript | API"
                 </Card.Text>
+                <Button variant="flat" style={{ background: "#f15bb5", color: "white", margin: 10}} href="https://github.com/smj3085/codeQuiz" target="_blank">
+                GitHub Repo
+                </Button>
                 <Button variant="flat" style={{ background: "#f15bb5", color: "white"}} href="https://smj3085.github.io/codeQuiz/" target="_blank">
                 View Project
                 </Button>
@@ -57,6 +63,9 @@ function Projects() {
                 <Card.Text style={{ textAlign: "justify" }}>
                 "HTML | CSS | JavaScript | API"
                 </Card.Text>
+                <Button variant="flat" style={{ background: "#f15bb5", color: "white", margin: 10}} href="https://github.com/smj3085/workday_scheduler" target="_blank">
+                GitHub Repo
+                </Button>
                 <Button variant="flat" style={{ background: "#f15bb5", color: "white"}}  href="https://smj3085.github.io/workday_scheduler/" target="_blank">
                 View Project
                 </Button>
@@ -72,6 +81,9 @@ function Projects() {
                 <Card.Text style={{ textAlign: "justify" }}>
                 "HTML | CSS | NodeJs"
                 </Card.Text>
+                <Button variant="flat" style={{ background: "#f15bb5", color: "white", margin: 10}} href="https://github.com/smj3085/Note-taker" target="_blank">
+                GitHub Repo
+                </Button>
                 <Button variant="flat" style={{ background: "#f15bb5", color: "white"}} href="https://fierce-castle-98892.herokuapp.com/" target="_blank">
                 View Project
                 </Button>
@@ -87,6 +99,9 @@ function Projects() {
                 <Card.Text style={{ textAlign: "justify" }}>
                 "HTML | CSS | JavaScript"
                 </Card.Text>
+                <Button variant="flat" style={{ background: "#f15bb5", color: "white", margin: 10}} href="https://github.com/smj3085/passwordGenerator" target="_blank">
+                GitHub Repo
+                </Button>
                 <Button variant="flat" style={{ background: "#f15bb5", color: "white"}} href="https://smj3085.github.io/passwordGenerator/" target="_blank">
                 View Project
                 </Button>
@@ -102,6 +117,9 @@ function Projects() {
                 <Card.Text style={{ textAlign: "justify" }}>
                 "HTML | CSS | JavaScript | API"
                 </Card.Text>
+                <Button variant="flat" style={{ background: "#f15bb5", color: "white", margin: 10}} href="https://github.com/smj3085/weather-dashboard" target="_blank">
+                GitHub Repo
+                </Button>
                 <Button variant="flat" style={{ background: "#f15bb5", color: "white"}} href="https://smj3085.github.io/weather-dashboard/" target="_blank">
                 View Project
                 </Button>
