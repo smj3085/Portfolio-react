@@ -1,3 +1,7 @@
+* {
+  background-color: white !important;
+}
+
 :root {
     --pinklook: #f15bb5;
     --bluelook: #3a86ff;

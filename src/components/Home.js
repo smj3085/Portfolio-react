@@ -5,7 +5,7 @@ import Type from "./Typewriter.js";
 
 function Home() {
     return (
-      <section>
+      <body>
         <Container fluid className="home-section" id="home">
           <Container className="home-content">
             <Row>
@@ -33,7 +33,7 @@ function Home() {
             </Row>
           </Container>
         </Container>
-      </section>
+      </body>
     );
   }
   

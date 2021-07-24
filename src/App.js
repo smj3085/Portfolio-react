@@ -20,7 +20,7 @@ class App extends Component {
           <Navbar />
             <Switch>
              <Route path="/" component={Home} exact/>
-            <Route path="/about" component={About}/>
+              <Route path="/about" component={About}/>
              <Route path="/contact" component={Contact}/>
              <Route path="/projects" component={Projects}/>
             <Route path="/resume" component={Resume}/>
@@ -32,4 +32,4 @@ class App extends Component {
   }
 }
   
-  export default App;
+export default App;
