@@ -20,14 +20,14 @@ function About() {
               }}
             >
               <h1 style={{ paddingBottom: "20px" }}>
-                <strong className="about-header pink">A little bit about me!</strong>
+                About <strong className="pink">Me</strong>
               </h1>
-              <h2>Hi!! I'm <strong className="pink">Steph Lee. </strong></h2>
+              <h2>Hi!! I'm <strong className="pink">Stephanie Lee. </strong></h2>
               <br />
               <p style={{ textAlign: "justify" }}>
-              I am based in beautiful<strong className="pink"> Sydney, Australia.</strong>
+              I am a full stack developer based in beautiful<strong className="pink"> Sydney, Australia.</strong>
               <br />My early working years were spent in the hustle and bustle of the aviation and financial services industries.<br />
-              I am currently studying a Full Stack Bootcamp course with the University of Sydney.
+              Currently, I'm studying a Full Stack Bootcamp course at the University of Sydney.
               <br />
               {/* Quote block */}
               <br />
