@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -18,6 +19,7 @@
     "react-scripts": "4.0.3",
     "react-tsparticles": "^1.32.0",
     "react-typewriter-effect": "^1.0.2",
+    "react-vertical-timeline-component": "^3.3.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
