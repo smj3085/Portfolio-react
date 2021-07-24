@@ -11,7 +11,6 @@ import "./styles/styles.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// import ScrollToTop from "./components/ScrollToTop";
 
 class App extends Component {
   render() {
