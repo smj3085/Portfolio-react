@@ -29,7 +29,7 @@
 
   ## Usage Guidelines
   * To see deployed app:
-  (https://hidden-castle-02261.herokuapp.com)
+   (https://smj3085.github.io/Portfolio-react/)
 
   ## Credits
   * smj3085
