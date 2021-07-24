@@ -29,7 +29,7 @@
 
   ## Usage Guidelines
   * To see deployed app:
-   https://smj3085.github.io/Portfolio-react)
+   (https://smj3085.github.io/Portfolio-react)
 
   ## Credits
   * smj3085
