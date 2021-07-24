@@ -7,7 +7,7 @@ function About() {
       <Container fluid className="about-section" style={{ paddingTop: "80px", paddingBottom: "50px" }}>
         <Container>
           <Row>
-            <Col>
+            <Col md="4">
             <img src={ imageme }  alt="about-steph" className="about-img" />
             </Col>
 
