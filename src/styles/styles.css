@@ -143,7 +143,7 @@ body {
 }
 
 .social-icons {
-    font-size: 4.5em !important;
+    font-size: 3.5em !important;
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
@@ -155,6 +155,11 @@ body {
     box-shadow: 4px 5px 4px 3px b5179e !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
+  }
+
+  .social-links {
+      display: flex;
+      text-align: center;
   }
   
   @media (max-width: 767px) {
@@ -168,40 +173,30 @@ body {
     overflow: hidden !important;
     border: 2.2px solid b5179e !important;
   }
-  /* .tech-icon-images {
-    padding: 20px !important;
-    line-height: 1.6 !important;
-  } */
 
 /* footer */
 .footer {
     background-color: var(--pinklook);
+    text-align: center !important;
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
     color: white;
   }
 
-.footer-name {
-    padding: 10px;
-}
-
 .footer-icons {
-    display: flex;
-    justify-content: flex-end;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    text-align: center !important;
 }
 
 .footer-social-icons {
     list-style-type: none;
-    padding-left: 20px;
     font-size: 2em !important;
     vertical-align: middle !important;
   }
 
   @media (max-width: 767px) {
-    .footer-name {
-      text-align: center !important;
-    }
   
     .footer-icons {
       text-align: center !important;
