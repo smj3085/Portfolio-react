@@ -19,7 +19,8 @@ function App() {
         <Navbar />
         <div className="container">
         <Switch>
-            <Route path="/about"><About /></Route>
+            <Route path="/about"><About />
+            </Route>
             <Route path="/contact">
               <Contact />
             </Route>
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/resume">
               <Resume />
+            </Route>
+            <Route path="/Portfolio-react">
+              <Home />
             </Route>
             <Route path="/">
               <Home />
