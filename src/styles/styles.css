@@ -9,7 +9,7 @@ body {
 }
 
 .pink {
-    color: var(red);
+    color: var(--pinklook);
     text-decoration: underline;
 }
 
