@@ -12,7 +12,7 @@ function NavBar() {
 return (
     <Navbar bg="light" expand="md" sticky="top">
         <Container>
-            <Navbar.Brand href="#home">SLEE.</Navbar.Brand>
+            <Navbar.Brand href="/">SLEE.</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"
               onClick={() => {
                 updateExpanded(expand ? false : "expanded");
